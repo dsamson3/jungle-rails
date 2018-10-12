@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/logout' => 'sessions#destroy'
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
+  get "/users" => "users#new"
 
   namespace :admin do
     root to: 'dashboard#show'
