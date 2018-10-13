@@ -26,3 +26,18 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+!["Screen of Main Page"]()
+!["Product with Review"]()
+!["Registration"]()
+!["Basic Admin Authentication"]()
+
+##Featured I added to Supplied Code
+
+* Feature: Product Sold Out Badge
+* Feature: Admin Routes
+* Feature: Category Creation Routes (Admin Only)
+* Feature: Admin Authentication
+* User Signup & Authentication
+* Bugfix: Checking out empty cart
+* Feature: Product Ratings
