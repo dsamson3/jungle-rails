@@ -27,10 +27,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
-!["Screen of Main Page"]()
-!["Product with Review"]()
-!["Registration"]()
-!["Basic Admin Authentication"]()
+!["Screen of Main Page"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Main%20Page.png?raw=true)
+!["Product with Review"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Product%20With%20Reviews.png?raw=true)
+!["Registration"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Registration%20Page.png?raw=true)
+!["Basic Admin Authentication"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Basic%20Admin%20authentication.png?raw=true)
+!["Admin Categories"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Admin%20Categories.png?raw=true)
 
 ##Featured I added to Supplied Code
 
