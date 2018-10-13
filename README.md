@@ -33,7 +33,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 !["Basic Admin Authentication"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Basic%20Admin%20authentication.png?raw=true)
 !["Admin Categories"](https://github.com/dsamson3/jungle-rails/blob/master/Docs/Admin%20Categories.png?raw=true)
 
-##Featured I added to Supplied Code
+## Featured I added to Supplied Code
 
 * Feature: Product Sold Out Badge
 * Feature: Admin Routes
