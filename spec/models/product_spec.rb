@@ -19,10 +19,10 @@ RSpec.describe Product, type: :model do
     puts subject.errors.full_messages
   end
   it "is not valid without a price" do
-    subject.price_cents=nil
-    expect(subject).to_not be_valid
-    expect(subject.errors.empty?).to_not be true
-    puts subject.errors.full_messages
+    @product = Product.new(name:"Anything", price:nil, quantity:5, category: category)
+    expect(@product).to_not be_valid
+    expect(@product.errors.empty?).to_not be true
+    puts @product.errors.full_messages
   end
   it "is not valid without a quantity" do
     subject.quantity=nil
