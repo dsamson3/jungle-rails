@@ -1,8 +1,21 @@
 class User < ActiveRecord::Base
     has_secure_password
     has_many :reviews
+
+    validates :password, length: {minimum: 6}
     validates :name, presence: true
-    validates :email, presence: true, :uniqueness => {:scope => :email}
-    
+    validates :email, presence: true 
+    validates_uniqueness_of :email, :case_sensitive => false
     validates :password_confirmation, presence: true
+
+    def self.authenticate_with_credentials(email, password)
+        email = email.strip.downcase
+        user = User.where("lower(email)= ?", email).first
+        if user && user.authenticate(password)
+            user
+        else
+            nil
+        end
+    end
+
 end
